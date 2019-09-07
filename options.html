@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tweak New Twitter Options</title>
+    <title>Tea 🍵 &emdash; A Twitter Upgrade</title>
     <style>
       body, html {
         padding: 0;
@@ -79,34 +79,46 @@
         <label>
           <span>Always use Latest Tweets timeline</span>
           <div class="switch">
-            <input type="checkbox" name="alwaysUseLatestTweets" id="alwaysUseLatestTweets">
-            <label for="alwaysUseLatestTweets"></label>
+            <input type="checkbox" name="forceLatestTweets" id="forceLatestTweets">
+            <label for="forceLatestTweets"></label>
           </div>
         </label>
       </section>
-      <section class="select">
-        Retweets
-        <select name="retweets">
-          <option value="ignore">Ignore</option>
-          <option value="hide">Hide</option>
-          <option value="separate">Show in separate "Retweets" timeline</option>
-        </select>
-      </section>
+
+      <!-- Section: tweet hide options -->
       <section class="checkbox">
         <label>
-          <span>Hide sidebar content</span>
+          <span>Hide "liked by" tweets</span>
           <div class="switch">
-            <input type="checkbox" name="hideSidebarContent" id="hideSidebarContent">
-            <label for="hideSidebarContent"></label>
+            <input type="checkbox" name="hideLikedTweets" id="hideLikedTweets">
+            <label for="hideLikedTweets"></label>
           </div>
         </label>
       </section>
       <section class="checkbox">
         <label>
-          <span>Use base font size for navigation bar</span>
+          <span>Hide "followed by" tweets</span>
           <div class="switch">
-            <input type="checkbox" name="navBaseFontSize" id="navBaseFontSize">
-            <label for="navBaseFontSize"></label>
+            <input type="checkbox" name="hideFollowedByTweets" id="hideFollowedByTweets">
+            <label for="hideFollowedByTweets"></label>
+          </div>
+        </label>
+      </section>
+      <section class="checkbox">
+        <label>
+          <span>Globally hide retweets</span>
+          <div class="switch">
+            <input type="checkbox" name="hideRetweets" id="hideRetweets">
+            <label for="hideRetweets"></label>
+          </div>
+        </label>
+      </section>
+      <section class="checkbox">
+        <label>
+          <span>Hide promoted tweets</span>
+          <div class="switch">
+            <input type="checkbox" name="hidePromotedTweets" id="hidePromotedTweets">
+            <label for="hidePromotedTweets"></label>
           </div>
         </label>
       </section>
@@ -115,31 +127,62 @@
         <label>
           <span>Explore</span>
           <div class="switch">
-            <input type="checkbox" name="hideExploreNav" id="hideExploreNav">
-            <label for="hideExploreNav"></label>
+            <input type="checkbox" name="hideExplore" id="hideExplore">
+            <label for="hideExplore"></label>
           </div>
         </label>
         <label>
           <span>Bookmarks</span>
           <div class="switch">
-            <input type="checkbox" name="hideBookmarksNav" id="hideBookmarksNav">
-            <label for="hideBookmarksNav"></label>
+            <input type="checkbox" name="hideBookmarks" id="hideBookmarks">
+            <label for="hideBookmarks"></label>
           </div>
         </label>
         <label>
           <span>Lists</span>
           <div class="switch">
-            <input type="checkbox" name="hideListsNav" id="hideListsNav">
-            <label for="hideListsNav"></label>
+            <input type="checkbox" name="hideLists" id="hideLists">
+            <label for="hideLists"></label>
+          </div>
+        </label>
+        <label>
+          <span>Messages</span>
+          <div class="switch">
+            <input type="checkbox" name="hideMessages" id="hideMessages">
+            <label for="hideMessages"></label>
+          </div>
+        </label>
+        <label>
+          <span>Notifications</span>
+          <div class="switch">
+            <input type="checkbox" name="hideNotifications" id="hideNotifications">
+            <label for="hideNotifications"></label>
           </div>
         </label>
       </section>
-      <section class="checkbox">
+
+      <!-- sidebar item removal (trends, people to follow, etc) -->
+      <section class="checkboxlist">
+        <p>Hide sidebar items:</p>
         <label>
-          <span>Enable debug logging (developer option)</span>
+          <span>Hide Trends</span>
           <div class="switch">
-            <input type="checkbox" name="enableDebugLogging" id="enableDebugLogging">
-            <label for="enableDebugLogging"></label>
+            <input type="checkbox" name="hideTrends" id="hideTrends">
+            <label for="hideTrends"></label>
+          </div>
+        </label>
+        <label>
+          <span>Hide Who to Follow</span>
+          <div class="switch">
+            <input type="checkbox" name="hideWhoToFollow" id="hideWhoToFollow">
+            <label for="hideWhoToFollow"></label>
+          </div>
+        </label>
+        <label>
+          <span>Hide Footer</span>
+          <div class="switch">
+            <input type="checkbox" name="hideFooter" id="hideFooter">
+            <label for="hideFooter"></label>
           </div>
         </label>
       </section>

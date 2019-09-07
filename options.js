@@ -2,14 +2,23 @@ chrome.storage.local.get((storedConfig) => {
   let form = document.querySelector('form')
 
   let config = {
-    alwaysUseLatestTweets: true,
-    enableDebugLogging: false,
-    hideBookmarksNav: true,
-    hideExploreNav: true,
-    hideListsNav: true,
-    hideSidebarContent: true,
-    navBaseFontSize: true,
-    retweets: 'separate',
+    forceLatestTweets: true,
+    hidePromotedTweets: true,
+    hideFollowedByTweets: true,
+    hideLikedTweets: false,
+    hideRetweets: false,
+    mutedUsers: [],
+
+    // Sidebar
+    hideExplore: false,
+    hideMessages: false,
+    hideBookmarks: false,
+    hideLists: false,
+    hideNotifications: false,
+    hideTrends: true,
+    hideWhoToFollow: true,
+    hideFooter: false,
+
     ...storedConfig
   }
 
@@ -29,8 +38,7 @@ chrome.storage.local.get((storedConfig) => {
     let type = e.target.type
     if (type == 'checkbox') {
       config[e.target.name] = e.target.checked
-    }
-    else {
+    } else {
       config[e.target.name] = e.target.value
     }
     chrome.storage.local.set(config)

@@ -1,38 +1,24 @@
-# Tweak New Twitter
+# 🍵 Tea — a better twitter experience.
 
-![](icons/icon128.png)
+🍵 Tea is a small extension which aims to add some extra features to the new Twitter UI.
 
-**Reduce "engagement" and tone down some of New Twitter's UI**
-
-* [Install Chrome Extension](https://chrome.google.com/webstore/detail/kpmjjdhbcfebfjgdnpjagcndoelnidfj)
-* [Install Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/)
-* [Install as a user script](https://greasyfork.org/en/scripts/387773-tweak-new-twitter) (requires a [user script manager](https://greasyfork.org/en#home-step-1))
+It's also aimed at making things safer for people using Twitter, as muting a user does not actually remove them from your timeline.
 
 ## Features
 
-- Always use the Latest Tweets (chronological) timeline - automatically switches you back when Twitter decides they'd rather you were on the "Home" (algorithmic) timeline because "engagement"
-- Move retweets to a separate Retweets timeline, or hide them entirely
-- Remove sidebar content (Trends, Who to follow, sidefooter)
-- Remove some less-used links from the primary nav (Explore, Bookmarks, Links)
-- Use the site's base font size and normal font weight in the primary nav to make it less distracting (using your selected font size from the Display / Customize your view dialog)
+- Force "Latest Tweets" to be on by default. Every time you open the Home tab, this extension will switch you back to Latest Tweets if set.
+- Remove specific elements (Messages, Explore, Bookmarks, Lists, Trends and Who to Follow can all be removed).
+- Hide "liked by" tweets from your timeline entirely.
+- Hide "followed by" tweets from your timeline, too!
+- Hide all tweets from a specific user from your timeline, regardless of source.
+- Hide Promoted tweets by default. 
 
-## Screenshots
+* [Install Chrome Extension](https://chrome.google.com/webstore/detail/ahedgckhbhngdecmjhmffhaeidhmbapc)
 
-Timeline view with all tweaks enabled (default):
+## Caveats
 
-![Screenshot of a New Twitter timeline without retweets, sidebar content, nav links which can be hidden and a less distracting nav style](screenshots/timeline.png)
-
-The new Retweets timeline, containing retweets only:
-
-![Screenshot of the Retweets timeline Tweak New Twitter adds to New Twitter, containing nothing but retweets](screenshots/retweets.png)
-
-Chrome extension options dialog:
-
-![Screenshot of the options UI in Chrome](screenshots/chrome_options.png)
-
-Firefox extension page options:
-
-![Screenshot of the options UI in Firefox](screenshots/firefox_options.png)
+Note that this extension currently only works if you are using Twitter in English.
+This is because it uses accessibility labels where possible, but Twitter has a few places where it does not have these and Tea has to guess things based on the text used.
 
 ## Attribution
 

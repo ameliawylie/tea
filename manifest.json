@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "Tweak New Twitter",
-  "description": "Reduce \"engagement\" and tone down some of New Twitter's UI",
-  "homepage_url": "https://github.com/insin/tweak-new-twitter/",
-  "version": "1.8",
+  "name": "Tea 🍵 — a better twitter experience.",
+  "description": "Makes Twitter a nicer place to be.",
+  "homepage_url": "https://github.com/ameliawylie/tea",
+  "version": "1.4",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "64": "icons/icon64.png",
-    "96": "icons/icon96.png",
-    "128": "icons/icon128.png"
+    "16": "icons/tea16.png",
+    "48": "icons/tea48.png",
+    "64": "icons/tea64.png",
+    "96": "icons/tea96.png",
+    "128": "icons/tea128.png"
   },
   "content_scripts": [
     {
@@ -17,7 +17,7 @@
         "https://twitter.com/*"
       ],
       "js": [
-        "./tweak-new-twitter.user.js"
+        "./tea.user.js"
       ]
     }
   ],
