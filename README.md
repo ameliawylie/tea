@@ -13,7 +13,7 @@ It's also aimed at making things safer for people using Twitter, as muting a use
 - Hide all tweets from a specific user from your timeline, regardless of source.
 - Hide Promoted tweets by default. 
 
-* [Install Chrome Extension](https://chrome.google.com/webstore/detail/ahedgckhbhngdecmjhmffhaeidhmbapc)
+* [Install Chrome Extension](https://chrome.google.com/webstore/detail/hngmgcjedbocimacgabdcdoemmdgfkgp)
 
 ## Caveats
 
