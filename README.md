@@ -22,4 +22,4 @@ This is because it uses accessibility labels where possible, but Twitter has a f
 
 ## Attribution
 
-Icon adapted from "Twitter free icon" by [Icomoon](https://icomoon.io/) from [www.flaticon.com](https://www.flaticon.com/), [CC 3.0 BY](https://creativecommons.org/licenses/by/3.0/)
+Icon base made by [Pixel Perfect](https://www.flaticon.com/authors/pixel-perfect) from [Flaticon](https://www.flaticon.com) and adapted.
